@@ -24,8 +24,12 @@
     <div class="preview">
       <p class="preview__title">Preview</p>
     </div>
-    <video width="90%" autoplay muted>
-      <source src="./Six - preview.mp4" type="video/mp4" />
+    <video width="720" controls>
+      <source src="./Six - preview.mp4" type="video/mp4" id="vid" />
     </video>
+
+    <script>
+      document.getElementById("vid").play();
+    </script>
   </body>
 </html>
