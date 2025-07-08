@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap");
+
+html {
+  height: 120vh;
+  font-family: sans-serif;
+  font-size: 62.5%;
+  color: #fffeff;
+  font-family: "Inter";
+  background-color: #1c1d21;
+  padding-top: 5rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: #fffeff;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 4.5rem;
+  margin-top: 2rem;
+}
+
+video {
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download-icon {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 1.5rem;
+}
+
+.thumbnail {
+  width: 30rem;
+  border-radius: 5px;
+}
+
+.preview__title {
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 8rem;
+}
